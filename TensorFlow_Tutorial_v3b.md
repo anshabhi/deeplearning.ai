@@ -384,7 +384,7 @@ cost = [ 0.79813886  0.91301525  0.40318605  0.34115386]
 Many times in deep learning you will have a y vector with numbers ranging from 0 to C-1, where C is the number of classes. If C is for example 4, then you might have the following y vector which you will need to convert as follows:
 
 
-<img src="images/onehot.png" style="width:600px;height:150px;">
+<img src="onehot.png" style="width:600px;height:150px;">
 
 This is called a "one hot" encoding, because in the converted representation exactly one element of each column is "hot" (meaning set to 1). To do this conversion in numpy, you might have to write a few lines of code. In tensorflow, you can use one line of code: 
 
@@ -539,7 +539,7 @@ One afternoon, with some friends we decided to teach our computers to decipher s
 Note that this is a subset of the SIGNS dataset. The complete dataset contains many more signs.
 
 Here are examples for each number, and how an explanation of how we represent the labels. These are the original pictures, before we lowered the image resolutoion to 64 by 64 pixels.
-<img src="images/hands.png" style="width:800px;height:350px;"><caption><center> <u><font color='purple'> **Figure 1**</u><font color='purple'>: SIGNS dataset <br> <font color='black'> </center>
+<img src="hands.png" style="width:800px;height:350px;"><caption><center> <u><font color='purple'> **Figure 1**</u><font color='purple'>: SIGNS dataset <br> <font color='black'> </center>
 
 
 Run the following code to load the dataset.
