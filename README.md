@@ -15,7 +15,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://www.coursera.org/specializations/deep-learning">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -40,35 +40,25 @@ This repository talks about my learnings through coursework and projects that I 
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Specialization</a>
-      <ul>
-     <li> <a href="#built-with">Deep Learning Framework Used</a></li>
-</ol>
-      </li>
-      
-    
-<li>
-      <a href="#course-list">List of Courses and Things Learnt</a>
-      </li>
-      
-<li><a href="#usage">Most Important Projects</a></li>
-    <li><a href="#acknowledgements">Further Recommended Readings</a></li>
-  </ol>
-</details>
+# Table of contents
+
+- [About The Specialization <a name="about-the-project" /></a>](#about-the-specialization-a-nameabout-the-project-a)
+- [List of Courses and Things Learnt](#list-of-courses-and-things-learnt)
+- [Most Important Projects](#most-important-projects)
+- [Further Recommended Readings](#further-recommended-readings)
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Specialization <a name="about-the-project" /></a>
+## About The Specialization
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
+<p align="left">
+  <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/N7CW5PYD3CRT">
+    <img style = "display:inline" src="images/certificate.png" alt="Certificate" width="50%" height="50%">
+  </a>
+  
 This Deep Learning specialization is a widely respected 5-course specialization offered by Andrew NG. This specialization teaches one to master the tools and techniques used in deep learning.
+</p>
 
 ### Built With
 
@@ -122,39 +112,45 @@ I learned and made use of the following Python libraries in this specialization:
 
 ## Most Important Projects
 
-This specialization involves working on a total of 20 projects. The following are some of the most important projects:
+This specialization involves working on a total of nearly 20 assignments. The following are some of the most important projects:
+### Autonomous Driving System
+
+[Colab Notebook](https://colab.research.google.com/github/anshabhi/Deep-Learning-Coursera/blob/master/Convolutional%20Neural%20Networks/Week3/Car%20detection%20for%20Autonomous%20Driving/Autonomous%20driving%20application%20-%20Car%20detection%20-%20v1.ipynb)
+
+Use YOLO object detection model to design a model to detect objects on road from a video stream.
+
+![Autonomus Driving](images/autonomous-driving.gif)
+
+### Neural Art Style Transfer
+[Colab Notebook](https://colab.research.google.com/github/anshabhi/Deep-Learning-Coursera/blob/master/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer/Art%20Generation%20with%20Neural%20Style%20Transfer%20-%20v1.ipynb)
+
+Use Neural Style Transfer to generate artistic images. Fundamentally, use Transfer Learning on a pre-trained CNN to transfer style from one a drawing to a portrait image.
+
+![Art Transfer](images/art-transfer.gif)
 
 
+### Trigger Word Detection
+[Colab Notebook](https://colab.research.google.com/github/anshabhi/Deep-Learning-Coursera/blob/master/Sequence%20Models/Week3/Trigger%20word%20detection/Trigger%20word%20detection%20-%20v1.ipynb)
 
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
+Design a Sequence model used in personal assistant devices such as Alexa and Siri to respond to a Trigger word.
+Each time the user says activate, a chime is played as a trigger. Involves processing audio inputs as train/dev sets.
 
+![Trigger-Word](images/trigger.gif)
 
-
-
+## Further Recommended Readings
+* [DeepLearning.ai Courses Notes](https://github.com/mbadry1/DeepLearning.ai-Summary)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+
+[forks-shield]: https://img.shields.io/github/forks/anshabhi/ML-dl.ai.svg?style=for-the-badge
+[forks-url]: https://github.com/anshabhi/ML-dl.ai/network/members
+[stars-shield]: https://img.shields.io/github/stars/anshabhi/ML-dl.ai.svg?style=for-the-badge
+[stars-url]: https://github.com/anshabhi/ML-dl.ai/stargazers
+[issues-shield]: https://img.shields.io/github/issues/anshabhi/ML-dl.ai.svg?style=for-the-badge
+[issues-url]: https://github.com/anshabhi/ML-dl.ai/issues
+[license-shield]: https://img.shields.io/github/license/anshabhi/ML-dl.ai.svg?style=for-the-badge
+[license-url]: https://github.com/anshabhi/ML-dl.ai/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+[linkedin-url]: https://linkedin.com/in/mrabhinavagarwal
+
