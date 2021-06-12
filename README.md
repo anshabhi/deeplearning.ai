@@ -54,9 +54,9 @@ This repository talks about my learnings through coursework and projects that I 
 
 <p align="left">
   <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/N7CW5PYD3CRT">
-    <img style = "display:inline" src="images/certificate.png" alt="Certificate" width="50%" height="50%">
+    <img style = "display:inline" src="images/certificate.PNG" alt="Certificate" width="50%" height="50%">
   </a>
-  
+
 This Deep Learning specialization is a widely respected 5-course specialization offered by Andrew NG. This specialization teaches one to master the tools and techniques used in deep learning.
 </p>
 
